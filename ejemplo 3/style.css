@@ -1,18 +1,73 @@
-body{
+body {
     display: flex;
-    border: 2px solid red;
     height: 100vh;
     width: 100vw;
     justify-content: center;
     align-items: center;
 }
-#contenido-principal{
+
+.contenedor-principal {
+    position: relative;
     display: flex;
-    flex-direction: column;
     border: 2px solid black;
-    width: 50%;
-    height: 50%;
+    width: 35%;
+    height: 60%;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    border-radius: 2rem;
+}
+.contenedor-principal::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 70%;
+    background-color: yellowgreen;
+    border-radius: 2rem 2rem 0 0;
 }
 
+.image-icono {
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor-imagen {
+
+    position: relative;
+    border: 5px solid blue;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    overflow: hidden;
+}
+
+.contenedor-botones {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 5rem;
+    border: 2px solid green;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.contenedor-botones a {
+    position: relative;
+    display: inline-block;
+    width: 5rem;
+    height: 80%;
+    border: 2px solid red;
+    border-radius: 100%;
+}
+
+.link img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.link:hover{
+    box-shadow: 0 0 2rem blueviolet;
+    cursor: pointer;
+}
