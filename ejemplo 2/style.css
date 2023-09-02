@@ -1,0 +1,40 @@
+.pequeno{
+    background-color: green;
+    width: 100px;
+    height: 200px;
+   
+}
+#primer-h1{
+    color: blue;
+    
+}
+#html {
+    font-size:16px;
+}
+p{
+    color:aquamarine;
+    font-size: 50px-,
+}
+#div-ejemplo{
+position: relative;
+margin-top: 30px;
+border: 5px solid orange;
+width: 50Vw;
+font-size: 20px;
+padding: 10px;
+}
+#div-ejemplo div{
+    font-size: 30px;
+}
+#blue {
+    background-color: blue;
+    width: 100%;
+}
+#green{
+    background-color: green;
+    width: 50%;
+}
+#red{
+    background-color: red;
+    width: 25%;
+}
